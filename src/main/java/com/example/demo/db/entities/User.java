@@ -11,7 +11,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
-    private String surName;
+    private String surname;
     private String email;
     private String password;
 
@@ -23,12 +23,12 @@ public class User {
         this.name = name;
     }
 
-    public String getSurName() {
-        return this.surName;
+    public String getSurname() {
+        return this.surname;
     }
 
-    public void setSurName(String surName) {
-        this.surName = surName;
+    public void setSurname(String surName) {
+        this.surname = surName;
     }
 
     public String getEmail() {
